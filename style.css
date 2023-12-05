@@ -1,0 +1,52 @@
+body {
+  background-color: #303d51;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  color: #eaebed;
+}
+
+.header,
+.card {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  min-height: 15rem;
+  min-width: 50%;
+  padding: 4rem;
+  background-color: #eaebed;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.card_block {
+  display: flex;
+  min-width: 100%;
+  padding: 0.8rem;
+}
+
+.textfield {
+  min-width: 60%;
+  margin-left: auto;
+  border-radius: 0.22rem;
+}
+
+.checkbox {
+  margin-left: auto;
+  margin-right: 59%;
+}
+
+.block_button {
+  min-width: 5rem;
+  min-height: 2.2rem;
+}
+
+.card_output {
+  min-height: 2rem;
+  margin-left: 0.8rem;
+}
